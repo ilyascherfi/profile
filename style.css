@@ -1,0 +1,75 @@
+.img-circle {
+  width: 200px;
+  height: 200px;
+  aspect-ratio: 1;
+  /* border-radius: 50%; */
+  position: center
+}
+
+.bg-img {
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin-inline: auto;
+}
+
+body {
+  background-color: #c8eff0;
+  font-family: 'Mukta', sans-serif;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+h1, h2, h3 {
+
+  color: #241c90;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 182, 182);
+}
+
+.discover:hover{
+  transition: 1s;
+  font-family: 'Raleway', sans-serif;
+  color: rgb(0, 150, 147);
+  cursor: pointer;
+}
+
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.card {
+  background-color: #c2f6fa;
+  border: 20px auto;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 8px 3px 13px #989292;
+  border-radius: 10px;
+
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.h2-center {
+  margin: 0px auto;
+}
+
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
